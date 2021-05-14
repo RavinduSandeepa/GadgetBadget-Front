@@ -11,10 +11,10 @@ public class Registry {
 	 try
 	 {
 			 //Class.forName("com.mysql.jdbc.Driver");
-			 //con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/itemdb","root","ravinduc3303");
+			 //con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/itemdb","root","");
 			 
 			 Class.forName("com.mysql.cj.jdbc.Driver");
-			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/accountsdb","root","ravinduc3303");
+			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/accountsdb","root","");
 			 
 			 //For testing
 			 //System.out.print("Successfully connected");
